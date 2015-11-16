@@ -78,6 +78,46 @@ gulp test
 
 Tests failed!
 
->
 interface.js is updated with correct code.
 
+final test output
+chhunchha$ npm test
+
+@ test /Just work/edXMean/chapter1
+gulp test
+
+[15:53:16] Using gulpfile /Just work/edXMean/chapter1/gulpfile.js
+[15:53:16] Starting 'test'...
+[15:53:16] Finished 'test' after 9.61 ms
+
+
+  dbInterface
+    ✓ can insert a movie
+[ { _id: 564a6c6d1d3cb1482fa34c24,
+    title: 'The Empire Strikes Back',
+    year: 1980,
+    director: 'Irvin Kershner' } ]
+    ✓ can query data by director
+[ { _id: 564a6c6d1d3cb1482fa34c27,
+    title: 'Attack of the Clones',
+    year: 2002,
+    director: 'George Lucas' },
+  { _id: 564a6c6d1d3cb1482fa34c28,
+    title: 'Revenge of the Sith',
+    year: 2005,
+    director: 'George Lucas' },
+  { _id: 564a6c6d1d3cb1482fa34c23,
+    title: 'Star Wars',
+    year: 1977,
+    director: 'George Lucas' },
+  { _id: 564a6c6d1d3cb1482fa34c26,
+    title: 'The Phantom Menace',
+    year: 1999,
+    director: 'George Lucas' } ]
+    ✓ returns multiple results ordered by title
+
+
+  3 passing (284ms)
+
+Tests succeeded! Enter the below code:
+***********
