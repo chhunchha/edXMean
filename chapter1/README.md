@@ -17,11 +17,12 @@ Solution:
 ================
 
 go to directory
-> npm install
-> npm test
+execute
+$ npm install
+$ npm test
 
-> @ test /Just work/edXMean/chapter1
-> gulp test
+@ test /Just work/edXMean/chapter1
+gulp test
 
 [14:52:53] Using gulpfile /Just work/edXMean/chapter1/gulpfile.js
 [14:52:53] Starting 'test'...
