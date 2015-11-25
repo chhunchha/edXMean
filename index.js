@@ -51,7 +51,7 @@ var user = new User({
 user.save(function(error){
 	if(error) {
 		console.log(error);
-		process.exit(1);
+		//process.exit(1);
 	}
 	User.find({email: 'mr.chhunchha@gmail.com'}, function(error, docs){
 		if(error) {
@@ -59,7 +59,10 @@ user.save(function(error){
 			process.exit(1);
 		}
 		console.log(require('util').inspect(docs));
-		process.exit(0);
+		//process.exit(0);
 	});
 });
 
+var server = require('./server');
+server().listen(3000);
+console.log('server listening on port 3000!');
