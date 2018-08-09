@@ -12,7 +12,7 @@
 		"mocha" : "2.2.4",
 		"mongoose" : "4.2.5",
 		"express" : "~4.12",
-		"superagent" : "1.4.0",
+                "superagent" : "~> 3.7.0",		
 		"wagner-core" : "0.2.0",
 		"http-status": "0.1.8"
 	}
